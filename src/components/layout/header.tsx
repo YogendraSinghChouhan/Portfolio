@@ -6,6 +6,7 @@ import { useTheme } from "next-themes";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import Logo from "@/app/(home)/_components/logo";
 
 const navItems = [
   { name: "About", href: "#" },
@@ -30,11 +31,7 @@ export default function Header() {
       <header className="sticky top-0 z-50 w-full transition-all duration-200 bg-background/60 backdrop-blur-md shadow-sm">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
-            <div className="flex items-center">
-              <Link href="/" className="text-lg font-bold">
-                A.D.
-              </Link>
-            </div>
+            <Logo />
             <div className="w-10 h-10"></div>{" "}
             {/* Placeholder for theme toggle */}
           </div>
@@ -47,11 +44,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full transition-all duration-200 bg-background/30 backdrop-blur-md shadow-sm">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="flex items-center">
-            <Link href="/" className="text-lg font-bold">
-              A.D.
-            </Link>
-          </div>
+          {/* Logo */}
+          <Logo />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">

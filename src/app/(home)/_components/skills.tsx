@@ -26,7 +26,7 @@ import { VscVscode } from "react-icons/vsc";
 
 const skillCategories = [
   {
-    title: "Front End",
+    title: "Frontend",
     skills: [
       {
         name: "Next.js",
@@ -53,7 +53,7 @@ const skillCategories = [
     ],
   },
   {
-    title: "Backend End",
+    title: "Backend",
     skills: [
       {
         name: "Express.js",
