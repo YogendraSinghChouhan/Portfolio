@@ -36,7 +36,7 @@ export default function Contact() {
       if (res.success) {
         setIsSuccess(true);
         toast.success(
-          "Your message has been sent successfully. I'll get back to you soon!"
+          "Thanks for reaching out! I'll get back to you soon!"
         );
         form.reset();
       } else {
