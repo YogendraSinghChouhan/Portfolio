@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { IconProvider } from "@/components/icons/icons-provider";
 import { RiNextjsFill } from "react-icons/ri";
 import {
+  SiClerk,
   SiExpress,
   SiMongoose,
   SiNestjs,
@@ -49,6 +50,10 @@ const skillCategories = [
       {
         name: "JavaScript",
         icon: <BiLogoJavascript className="text-yellow-400" />,
+      },
+      {
+        name: "V0",
+        icon: <IconProvider name="v0" className="text-black dark:text-white" />,
       },
     ],
   },
@@ -119,6 +124,11 @@ const skillCategories = [
         name: "Vercel",
         icon: <SiVercel className="text-black dark:text-white" />,
       },
+      {
+        name: "Clerk",
+        icon: <SiClerk className="text-violet-500" />,
+      },
+      { name: "Better-auth", icon: <IconProvider name="betterAuth" /> },
     ],
   },
 ];
