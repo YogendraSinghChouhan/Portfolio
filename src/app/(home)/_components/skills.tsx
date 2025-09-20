@@ -6,6 +6,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import {
   SiClerk,
   SiExpress,
+  SiLaravel,
   SiMongoose,
   SiNestjs,
   SiPrisma,
@@ -29,6 +30,7 @@ const skillCategories = [
   {
     title: "Frontend",
     skills: [
+      
       {
         name: "Next.js",
         icon: (
@@ -61,9 +63,16 @@ const skillCategories = [
     title: "Backend",
     skills: [
       {
+        name: "Laravel",
+        icon: (
+          <SiLaravel name="laravel" className="text-black dark:text-white" />
+        ),
+      },
+      {
         name: "Express.js",
         icon: <SiExpress className="text-black dark:text-white" />,
       },
+
       {
         name: "Nest.js",
         icon: <SiNestjs className="text-rose-500" />,

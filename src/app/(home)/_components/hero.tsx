@@ -16,6 +16,8 @@ import { SiExpress, SiLaravel } from "react-icons/si";
 export default function Hero() {
   return (
     <section className="py-6 md:py-10">
+  
+
       <div className="grid md:grid-cols-3 gap-10 items-center max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -50,7 +52,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-2 sm:gap-3">
-            <a href="/Abhishek_Devanda_Resume.pdf" target="_blank" download>
+            <a href="/YogendraSinghResume.pdf" target="_blank" download>
               <Button size="sm" className="text-xs sm:text-sm">
                 <Download className="mr-2 h-3 w-3 sm:h-4 sm:w-4" /> Resume
               </Button>
