@@ -11,7 +11,7 @@ import {
   BiLogoMongodb,
   BiLogoReact,
 } from "react-icons/bi";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiLaravel } from "react-icons/si";
 
 export default function Hero() {
   return (
@@ -172,7 +172,7 @@ export default function Hero() {
                 }}
               >
                 <div className="text-4xl text-black dark:text-white">
-                  <SiExpress />
+                  <SiLaravel />
                 </div>
               </motion.div>
 
@@ -224,7 +224,7 @@ export default function Hero() {
                 delay: 1,
               }}
             >
-              Laravel
+              MongoDB
             </motion.div>
 
             <motion.div
@@ -256,7 +256,7 @@ export default function Hero() {
                 delay: 1.5,
               }}
             >
-              Express Js
+              Laravel
             </motion.div>
           </div>
         </motion.div>

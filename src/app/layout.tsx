@@ -9,8 +9,8 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Abhishek Devanda - Full Stack Developer",
-  description: "Portfolio of Abhishek Devanda",
+  title: "Yogendra Singh Chouhan - Full Stack Developer",
+  description: "Portfolio of Yogendra Singh Chouhan",
 };
 
 export default function RootLayout({
