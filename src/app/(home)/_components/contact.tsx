@@ -68,10 +68,10 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <Link
-                    href="mailto:abhishekdevanda@outlook.com"
+                    href="mailto:yschouhan2002@gmail.com"
                     className="font-medium hover:underline"
                   >
-                    abhishekdevanda@outlook.com
+                    yschouhan2002@gmail.com
                   </Link>
                 </div>
               </div>
@@ -83,10 +83,10 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
                   <Link
-                    href="tel:8619568275"
+                    href="tel:9521074111"
                     className="font-medium hover:underline"
                   >
-                    +91 86195 68275
+                    +91 95210 74111
                   </Link>
                 </div>
               </div>
@@ -108,11 +108,11 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">LinkedIn</p>
                   <Link
-                    href="https://www.linkedin.com/in/abhishekdevanda/"
+                    href="https://www.linkedin.com/in/yogendra-singh-chouhan-234766231"
                     target="_blank"
                     className="font-medium hover:underline"
                   >
-                    @abhishekdevanda
+                    @YogendraSinghChouhan
                   </Link>
                 </div>
               </div>

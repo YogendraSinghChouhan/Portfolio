@@ -25,7 +25,7 @@ export default function Hero() {
         >
           <div className="space-y-2">
             <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-              Abhishek Devanda
+              Yogendra Singh Chouhan
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground">
               Full Stack Developer
@@ -35,8 +35,8 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <Mail className="h-4 w-4" />
-              <Link href="mailto:abhishekdevanda@outlook.com">
-                abhishekdevanda@outlook.com
+              <Link href="yschouhan2002@gmail.com">
+                yschouhan2002@gmail.com
               </Link>
             </div>
             <div className="flex items-center gap-1">
@@ -46,10 +46,7 @@ export default function Hero() {
           </div>
 
           <p className="text-muted-foreground text-sm sm:text-base">
-            A goal-oriented software developer with experience in building web
-            applications using modern technologies like React, Next.js, and
-            more. Seeking to leverage my technical skills to deliver exceptional
-            user experiences.
+            I am a Web Developer with hands-on experience in designing and developing dynamic web applications, REST APIs, and enterprise-level solutions. My expertise includes PHP, Laravel, MySQL/PostgreSQL, JavaScript, and modern front-end frameworks. I specialize in building user-friendly systems with clean architecture, optimized performance, and secure code.
           </p>
 
           <div className="flex flex-wrap gap-2 sm:gap-3">
@@ -58,7 +55,7 @@ export default function Hero() {
                 <Download className="mr-2 h-3 w-3 sm:h-4 sm:w-4" /> Resume
               </Button>
             </a>
-            <Link href="https://github.com/abhishekdevanda" target="_blank">
+            <Link href="https://github.com/YogendraSinghChouhan" target="_blank">
               <Button
                 variant="outline"
                 size="sm"
@@ -67,7 +64,7 @@ export default function Hero() {
                 <BiLogoGithub className="h-3 w-3 sm:h-4 sm:w-4" />
               </Button>
             </Link>
-            <Link href="mailto:abhishekdevanda@outlook.com" target="_blank">
+            <Link href="mailto:yschouhan2002@gmail.com" target="_blank">
               <Button
                 variant="outline"
                 size="sm"
@@ -76,7 +73,7 @@ export default function Hero() {
                 <Mail className="h-3 w-3 sm:h-4 sm:w-4" />
               </Button>
             </Link>
-            <Link href="https://x.com/Abhi_Devanda" target="_blank">
+            <Link href="https://x.com/Yogendr_2002" target="_blank">
               <Button
                 variant="outline"
                 size="sm"
@@ -86,7 +83,7 @@ export default function Hero() {
               </Button>
             </Link>
             <Link
-              href="https://www.linkedin.com/in/abhishekdevanda/"
+              href="https://www.linkedin.com/in/yogendra-singh-chouhan-234766231"
               target="_blank"
             >
               <Button
@@ -227,7 +224,7 @@ export default function Hero() {
                 delay: 1,
               }}
             >
-              MongoDB
+              Laravel
             </motion.div>
 
             <motion.div
