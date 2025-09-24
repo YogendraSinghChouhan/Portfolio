@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const education = [
   {
-    institution: "Compucom Institute of Technology and Management, Jaipur",
+    institution: "Galgotias University, Greater Noida",
     degree: "Master of Computer Applications (MCA)",
     period: "July 2024 - Present",
     gpa: "CGPA: */10",
@@ -14,7 +14,7 @@ const education = [
     institution: "University of Engineering and Management, Jaipur",
     degree: "Bachelor of Computer Applications (BCA)",
     period: "July 2021 - Jun 2024",
-    gpa: "CGPA: 7.6/10",
+    gpa: "CGPA: 7.3/10",
     // icon: "🏫",
   },
 ];

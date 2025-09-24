@@ -5,11 +5,11 @@ import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
-    title: "Mern Stack Developer",
-    company: "Aucio Infotech",
-    period: "Jul 25 - Present",
-    responsibilities: ["Working on full stack development."],
-    skills: ["Next.js", "Express.js", "MongoDB", "TypeScript", "TailwindCSS"],
+    title: "laravel Developer",
+    company: "Codraj Infotech PVT LMT",
+    period: "Jan 2023 - Mar 2023",
+    responsibilities: ["Working on Laravel development."],
+    skills: ["Laravel", "Vue.js", "MongoDB", "SQL", "PostgreSQL"],
   },
   {
     title: "Backend Developer Intern",
@@ -31,6 +31,17 @@ const experiences = [
       "Developed and maintained RESTful APIs and integrated MongoDB for efficient data handling.",
     ],
     skills: ["Node.js", "JavaScript", "Express.js", "MongoDB"],
+  },
+  {
+    title: "Linux Automation Virtual Internship ",
+    company: "Red Hat",
+    period: "Mar 2022 – May 2022",
+    responsibilities: [
+      "Master Linux commands, file system, permissions, services.",
+      "Automate system configuration, user management, and deployments",
+      "Apply automation on multiple servers, ensure security, and document processes.",
+    ],
+    skills: ["Linux", "File Management","Version Control & Collaboration"],
   },
 ];
 
