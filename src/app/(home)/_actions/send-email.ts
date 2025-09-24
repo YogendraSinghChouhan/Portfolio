@@ -16,7 +16,7 @@ export async function sendContactEmail({
   try {
     const mailOptionsToMe = {
       from: process.env.SMTP_EMAIL,
-      to: "abhishekdevanda@outlook.com",
+      to: "yschouhan2002@gmail.com",
       subject: `Portfolio | New message from ${name} (${email})`,
       text: message,
       html: `
@@ -42,7 +42,7 @@ export async function sendContactEmail({
           </div>
           
           <p>Best regards,<br>
-          <strong>Abhishek Devanda</strong></p>
+          <strong>Yogendra Singh Chouhan</strong></p>
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
           <p style="font-size: 12px; color: #888;">This is an automated confirmation email. Please do not reply to this email.</p>
