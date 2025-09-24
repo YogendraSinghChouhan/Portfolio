@@ -5,13 +5,6 @@ import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
-    title: "laravel Developer",
-    company: "Codraj Infotech PVT LMT",
-    period: "Jan 2023 - Mar 2023",
-    responsibilities: ["Working on Laravel development."],
-    skills: ["Laravel", "Vue.js", "MongoDB", "SQL", "PostgreSQL"],
-  },
-  {
     title: "Backend Developer Intern",
     company: "PearlThoughts",
     period: "Jun 2025 - Jul 2025",
@@ -21,6 +14,13 @@ const experiences = [
       "Worked extensively with NestJS, TypeORM, PostgreSQL, and TypeScript in a team environment.",
     ],
     skills: ["Nest.js", "PostgreSQL", "TypeScript", "TypeORM"],
+  },
+  {
+    title: "laravel Developer",
+    company: "Codraj Infotech PVT LMT",
+    period: "Jan 2023 - Mar 2023",
+    responsibilities: ["Working on Laravel development."],
+    skills: ["Laravel", "Vue.js", "MongoDB", "SQL", "PostgreSQL"],
   },
   {
     title: "Node.js Developer Intern",
