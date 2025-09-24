@@ -78,21 +78,6 @@ export default function Contact() {
 
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
-                  <Phone className="h-5 w-5" />
-                </div>
-                <div>
-                  <p className="text-sm text-muted-foreground">Phone</p>
-                  <Link
-                    href="tel:9521074111"
-                    className="font-medium hover:underline"
-                  >
-                    +91 95210 74111
-                  </Link>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
