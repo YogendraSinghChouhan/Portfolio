@@ -29,7 +29,7 @@ export async function sendContactEmail({
     const mailOptionsToUser = {
       from: process.env.SMTP_EMAIL,
       to: email,
-      subject: "Thank you for contacting Abhishek.",
+      subject: "Thank you for contacting Yogendra.",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333;">Thank you for reaching out!</h2>
